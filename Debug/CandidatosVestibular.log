@@ -1,0 +1,90 @@
+﻿  frec.c
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(66): warning C4033: 'frec_search' deve retornar um valor
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(70): warning C4013: 'header_size' indefinido; assumindo extern retornando int
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(95): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(74): warning C4101: 'key': variável local não referenciada
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(137): warning C4244: 'função': conversão de 'long' para 'short', possível perda de dados
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(180): warning C4013: 'led_fit' indefinido; assumindo extern retornando int
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(170): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(273): warning C4098: 'frec_print': função 'void' retornando um valor
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(214): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(251): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: consulte a declaração de 'strcpy'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(234): warning C4101: 'key': variável local não referenciada
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(304): warning C4146: operador menos unário aplicado a tipo unsigned, resultado permanece unsigned
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(285): warning C4101: 'rec': variável local não referenciada
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(289): warning C4101: 'key': variável local não referenciada
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(281): warning C4101: 'buffer': variável local não referenciada
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(320): warning C4047: '==': 'char *' difere em níveis de indireção de 'int'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(344): warning C4047: 'return': 'char *' difere em níveis de indireção de 'int'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(406): warning C4013: 'time' indefinido; assumindo extern retornando int
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(409): warning C4013: 'localtime' indefinido; assumindo extern retornando int
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(409): warning C4047: '=': 'tm *' difere em níveis de indireção de 'int'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(412): warning C4013: 'strftime' indefinido; assumindo extern retornando int
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(424): warning C4013: 'mktime' indefinido; assumindo extern retornando int
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(414): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(427): warning C4142: 'header_size': redefinição benigna de tipo
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(435): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(438): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(460): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(477): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(479): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(516): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(518): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(554): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(556): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(613): warning C4146: operador menos unário aplicado a tipo unsigned, resultado permanece unsigned
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(597): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: consulte a declaração de 'sprintf'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(599): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: consulte a declaração de 'fopen'
+d:\desenvolvimento\visual studio projects\árvore b\candidatosvestibular\frec.c(115): warning C4715: 'frec_search': nem todos os caminhos de controle retornam um valor
+  CandidatosVestibular.vcxproj -> D:\Desenvolvimento\Visual Studio Projects\Árvore B\Debug\CandidatosVestibular.exe
+  CandidatosVestibular.vcxproj -> D:\Desenvolvimento\Visual Studio Projects\Árvore B\Debug\CandidatosVestibular.pdb (Partial PDB)

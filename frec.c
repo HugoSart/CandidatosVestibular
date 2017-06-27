@@ -3,6 +3,8 @@
 #include "frec.h"
 #include "rec.h"
 
+#define HEADER_DATE_ERROR "99/99/9999-99:99:99"
+
 REC get_rec(FILE *);
 char *get_field(FILE *);
 void write_rec(FILE *, REC *);
@@ -31,7 +33,7 @@ int frec_import(char file_name[], char *import_name) {
 
 	// Declara e cria o arquivo de registros
 	sprintf(buffer, "%s/%s.%s", IMPORT_FOLDER, import_name, IMPORT_FORMAT);
-	FILE *frec = fopen(buffer, "wb");
+	FILE *frec;
 	if (!(frec = fopen(buffer, "wb"))) {
 		fprintf(stderr, "ERROR: in function frec_import(FILE *file, char *name) -> import file cannot be created.\n");
 		return 0;
@@ -49,6 +51,7 @@ int frec_import(char file_name[], char *import_name) {
 	}
 
 	fclose(frec);
+	fclose(file);
 
 	return 1;
 
@@ -83,7 +86,7 @@ REC frec_search(char file_name[], int inscription) {
 			break;
 		}
 
-		if (key == inscription) {
+		if (key == inscription && key >= 0) {
 			rec.inscription = inscription;
 			fseek(frec, 1, SEEK_CUR);
 			char *str = get_field(frec);
@@ -151,7 +154,7 @@ int frec_remove(char file_name[], int inscription) {
 
 }
 
-// SENDO IMPLEMENTADO
+// IMPLEMENTADO
 void frec_add(char file_name[], int inscription, char name[], char course[], float score) {
 
 	char buffer[100];
@@ -300,7 +303,7 @@ int frec_seek(FILE *frec, int inscription) {
 			break;
 		}
 
-		if (key == inscription) {
+		if (key == inscription && key >= 0) {
 			fseek(frec, -sizeof(int), SEEK_CUR);
 			return offset;
 		} else {
@@ -410,8 +413,11 @@ time_t write_header(FILE *file) {
 
 	char date[20];
 	strftime(date, strlen(date), HEADER_DATE_FORMAT, now_tm);
-
-	sprintf(buffer, "%s%c%s%c", HEADER_TYPE, HEADER_FIELD_DELIMITER, date, HEADER_FIELD_DELIMITER);
+	if (strlen(date) < 3) {
+		sprintf(buffer, "%s%c%s%c", HEADER_TYPE, HEADER_FIELD_DELIMITER, HEADER_DATE_ERROR, HEADER_FIELD_DELIMITER);
+	} else {
+		sprintf(buffer, "%s%c%s%c", HEADER_TYPE, HEADER_FIELD_DELIMITER, date, HEADER_FIELD_DELIMITER);
+	}
 
 	fwrite(buffer, strlen(buffer), 1, file);
 

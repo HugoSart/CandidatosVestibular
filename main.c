@@ -10,8 +10,6 @@ int main() {
 	int r = 0;
 	char file_name[100] = "";
 
-	
-
 	do {
 
 		system("cls");
@@ -62,10 +60,15 @@ int main() {
 				printf("=============== ADICIONAR REGISTRO ===============\n\n");
 				printf("  Arquivo aberto: %s\n\n", file_name);
 				printf("  Inscrição\t=> ");		scanf("%d", &ins);
-				printf("  Name  \t=> ");		scanf("%s", name2);
-				printf("  Curso \t=> ");		scanf("%s", course);
-				printf("  Pontuação\t=> ");		scanf("%f", &score);
-				frec_add(file_name, ins, name2, course, score);
+				if (ins < 0)										printf("\nERRO: Número de inscrição não deve ser menor do que zero.\n");
+				else if (frec_search(file_name, ins).score != -1.0) printf("\nERRO: Número de inscrição %d já existe.\n", ins);
+				else {
+					printf("  Name  \t=> ");		getchar();  gets(name2);
+					printf("  Curso \t=> ");			gets(course);
+					printf("  Pontuação\t=> ");		scanf("%f", &score);
+					printf("\n");
+					frec_add(file_name, ins, name2, course, score);
+				}
 				system("pause");
 				break;
 			case 4:
@@ -75,8 +78,9 @@ int main() {
 				printf("=============== REMOVER REGISTRO ===============\n\n");
 				printf("  Arquivo aberto: %s\n\n", file_name);
 				printf("  Inscrição\t=> ");		scanf("%d", &ins2);
-				if (frec_remove(file_name, ins2) == 0)	printf("\nERRO: Inscrição não encontada.\n");
-				else									printf("\nINFO: Registro de inscrição %d removido.\n", ins2);
+				if (ins2 < 0)								printf("\n\nERRO: A incrição deve ser maior do que zero.");
+				else if (frec_remove(file_name, ins2) == 0)	printf("\n\nERRO: Inscrição não encontada.\n\n");
+				else										printf("\nINFO: Registro de inscrição %d removido.\n\n", ins2);
 				
 				system("pause");
 				break;

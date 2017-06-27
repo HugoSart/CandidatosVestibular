@@ -6,7 +6,7 @@ REC *rec_new(int inscription, char *name, char *course, float score) {
 
 	rec->inscription = inscription;
 	strcpy(rec->name, name);
-	strcpy(rec->name, course);
+	strcpy(rec->course, course);
 	rec->score = score;
 	
 	return rec;

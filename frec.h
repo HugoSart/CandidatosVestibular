@@ -24,9 +24,6 @@ typedef struct frec {
 	time_t date;
 } frec_t;
 
-/// Carrega um arquivo de registros para o programa
-frec_t frec_load(FILE *file);
-
 /// Converte um arquivo formatado para um arquivo de registros
 int frec_import(char file_name[], char *import_name);
 
